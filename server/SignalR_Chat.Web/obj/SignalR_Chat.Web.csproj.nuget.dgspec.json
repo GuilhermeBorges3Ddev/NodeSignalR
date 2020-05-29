@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/SignalR_Chat.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/SignalR_Chat.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/SignalR_Chat.Web.csproj",
+        "projectName": "SignalR_Chat.Web",
+        "projectPath": "/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/SignalR_Chat.Web.csproj",
+        "packagesPath": "/Users/guilhermeborges/.nuget/packages/",
+        "outputPath": "/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/guilhermeborges/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

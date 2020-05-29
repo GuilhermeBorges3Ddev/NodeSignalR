@@ -1,0 +1,16 @@
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/bin/Debug/netcoreapp2.1/Properties/launchSettings.json
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/bin/Debug/netcoreapp2.1/SignalR_Chat.Web.deps.json
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/bin/Debug/netcoreapp2.1/SignalR_Chat.Web.runtimeconfig.json
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/bin/Debug/netcoreapp2.1/SignalR_Chat.Web.runtimeconfig.dev.json
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/bin/Debug/netcoreapp2.1/SignalR_Chat.Web.dll
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/bin/Debug/netcoreapp2.1/SignalR_Chat.Web.pdb
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/Debug/netcoreapp2.1/SignalR_Chat.Web.csprojAssemblyReference.cache
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/Debug/netcoreapp2.1/SignalR_Chat.Web.AssemblyInfoInputs.cache
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/Debug/netcoreapp2.1/SignalR_Chat.Web.AssemblyInfo.cs
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/Debug/netcoreapp2.1/SignalR_Chat.Web.csproj.CoreCompileInputs.cache
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/Debug/netcoreapp2.1/SignalR_Chat.Web.RazorAssemblyInfo.cache
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/Debug/netcoreapp2.1/SignalR_Chat.Web.RazorAssemblyInfo.cs
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/Debug/netcoreapp2.1/SignalR_Chat.Web.RazorTargetAssemblyInfo.cache
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/Debug/netcoreapp2.1/SignalR_Chat.Web.dll
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/Debug/netcoreapp2.1/SignalR_Chat.Web.pdb
+/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/Debug/netcoreapp2.1/SignalR_Chat.Web.genruntimeconfig.cache
