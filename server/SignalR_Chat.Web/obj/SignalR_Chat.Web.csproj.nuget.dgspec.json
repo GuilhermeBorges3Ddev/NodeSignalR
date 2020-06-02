@@ -13,6 +13,9 @@
         "packagesPath": "/Users/guilhermeborges/.nuget/packages/",
         "outputPath": "/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/guilhermeborges/.nuget/NuGet/NuGet.Config"
         ],
@@ -37,10 +40,8 @@
         "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.AspNetCore.App": {
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.1, )",
-              "autoReferenced": true
+              "version": "[2.1.1, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",

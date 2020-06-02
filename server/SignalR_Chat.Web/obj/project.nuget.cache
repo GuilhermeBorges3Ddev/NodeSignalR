@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pVJbZbU8bOb5AsmxfVwATh7bkDbmZ4trDawgfPNmY+bCTOHjAXC+Ap+WJBV5w3C88FEahf4LeldQKrdNvzIFHQ==",
+  "dgSpecHash": "5606AkLX2h7bPFnrO7uDxORN6JMD99fYPBVpZtCfYXbDYF0BloLLymU2g501ygBANJmXChKhbathWe7D/e4/ng==",
   "success": true,
   "projectFilePath": "/Users/guilhermeborges/Desktop/macOnBoard/WebsocketSignalR/server/SignalR_Chat.Web/SignalR_Chat.Web.csproj",
   "expectedPackageFiles": [
