@@ -9,7 +9,7 @@ class Chat extends Component {
   constructor(props) {
     super(props);
     this.conexao = {};
-    this.state = {mensagem: '', nome: ''};
+    this.state = {mensagem: '', nome: '', id: ''};
   }
   
   componentDidMount() {
@@ -34,10 +34,14 @@ class Chat extends Component {
     this.setState({mensagem: e.target.value });
   }
 
+  obterId(e) {
+     this.setState({id: e.target.value });
+  }
+
   enviarMensagem(e) {
     e.preventDefault();
     // Invoco o método EnviarMensagem no lado do servidor.
-    this.conexao.invoke('EnviarMensagem', {nome: this.state.nome, msg: this.state.mensagem});
+    this.conexao.invoke('EnviarMensagem', {id: this.state.id, nome: this.state.nome, msg: this.state.mensagem});
     this.setState({mensagem:''})
   }
   
@@ -50,8 +54,9 @@ class Chat extends Component {
               <div className="row">
                   <div className="message-wrap col-lg-12">
                   {this.props.mensagensChat.map(item => (
-                    <div key={item.nome + item.msg} className="msg-wrap">                                                                  
+                    <div key={item.id + item.nome + item.msg} className="msg-wrap">                                                                  
                       <div className="media-body">
+                          <small>{item.id}</small>
                           <h5 className="media-heading">{item.nome}</h5>
                           <small>{item.msg}</small>
                       </div>
@@ -59,10 +64,27 @@ class Chat extends Component {
                   ))}                    
                     <div className="send-wrap ">
                       <form onSubmit={e => this.enviarMensagem(e)} className="input-group mb-3">
-                        <input type="text" value={this.state.mensagem} className="form-control" onChange={e => this.obterMensagem(e)} />
-                          <div className="input-group-append">
-                            <button className="btn btn-outline-secondary" type="submit">Enviar</button>
-                          </div>
+
+                        <h1 className="py-3">Ola {this.state.nome}</h1>
+                        
+                        <div className="d-flex w-100">
+                          <h5><small>Entre com a sua mensagem:</small></h5><br />
+                          <input type="text" value={this.state.mensagem} className="form-control w-75 ml-4" onChange={e => this.obterMensagem(e)} />
+                        </div>
+                        
+                        <br /><br />
+
+                        <div className="d-flex w-100">
+                          <h5><small>Digite o ID destino:</small></h5><br />
+                          <input type="text" value={this.state.id} className="form-control w-75 ml-4" onChange={e => this.obterId(e)} />
+                        </div>
+
+                        <br /><br />
+
+                        <div className="input-group-append">
+                            <button className="btn btn-lg btn-primary" type="submit">Enviar</button>
+                        </div>
+
                       </form>            
                     </div>                  
                   </div>

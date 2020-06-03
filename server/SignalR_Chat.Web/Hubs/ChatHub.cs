@@ -12,9 +12,16 @@ namespace SignalR_Chat.Web.Hubs
 
         private static int contador;
 
-        public async Task EnviarMensagem(Mensagem mensagem)
-        {
-            await Clients.All.SendAsync("RecebendoMensagem", mensagem);
+        // public async Task EnviarMensagem(Mensagem mensagem)
+        // {
+        //     await Clients.All.SendAsync("RecebendoMensagem", mensagem);
+        // }
+
+        public Task EnviarMensagem(Mensagem mensagem){
+            Console.WriteLine(mensagem.id);
+            Console.WriteLine(mensagem.Msg );
+            Console.WriteLine(mensagem.Nome);
+            return Clients.User(mensagem.id).SendAsync("ReceiveMessage", mensagem);
         }
 
         public override async Task OnConnectedAsync()

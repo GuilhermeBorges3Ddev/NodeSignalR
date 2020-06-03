@@ -7,6 +7,7 @@ namespace SignalR_Chat.Web.Modelo
 {
     public class Mensagem
     {
+        public string id {get; set; }
         public string Nome { get; set; }
         public string Msg { get; set; }
     }
