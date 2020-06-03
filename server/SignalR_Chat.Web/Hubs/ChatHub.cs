@@ -21,7 +21,7 @@ namespace SignalR_Chat.Web.Hubs
             Console.WriteLine(mensagem.id);
             Console.WriteLine(mensagem.Msg );
             Console.WriteLine(mensagem.Nome);
-            return Clients.User(mensagem.id).SendAsync("ReceiveMessage", mensagem);
+            return Clients.User(mensagem.id).SendAsync("RecebendoMensagem", mensagem);
         }
 
         public override async Task OnConnectedAsync()
