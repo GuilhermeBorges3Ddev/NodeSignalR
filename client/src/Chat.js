@@ -75,7 +75,7 @@ class Chat extends Component {
                         <br /><br />
 
                         <div className="d-flex w-100">
-                          <h5><small>Digite o ID destino:</small></h5><br />
+                          <h5><small>ID destino:</small></h5><br />
                           <input type="text" value={this.state.id} className="form-control w-75 ml-4" onChange={e => this.obterId(e)} />
                         </div>
 
@@ -85,7 +85,25 @@ class Chat extends Component {
                             <button className="btn btn-lg btn-primary" type="submit">Enviar</button>
                         </div>
 
-                      </form>            
+                      </form>
+
+                      <table class="table table-dark">
+                        <thead>
+                          <tr>
+                              <th scope="col">Mensagem enviada para o user: {this.state.id}</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                              <th scope="row">Remetente: {this.state.nome}</th>                   
+                          </tr>
+                          <tr>
+                              <th scope="row">Lista de mensagens: {this.state.mensagem}</th>
+                          </tr>
+                        </tbody>
+                      </table>
+
+
                     </div>                  
                   </div>
               </div>
